@@ -1,0 +1,1174 @@
+{
+    "whereAmI": [],
+    "poiagg": [{ "response": { "poiicon": [{ "height": 32, "id": 1, "width": 32 }, { "height": 20, "id": 2, "width": 20 }, { "height": 20, "id": 3, "width": 20 }, { "height": 26, "id": 4, "width": 26 }, { "height": 26, "id": 5, "width": 26 }, { "height": 20, "id": 6, "width": 20 }, { "height": 20, "id": 7, "width": 20 }, { "height": 20, "id": 8, "width": 20 }, { "height": 26, "id": 9, "width": 26 }, { "height": 26, "id": 10, "width": 26 }, { "height": 20, "id": 11, "width": 20 }, { "height": 20, "id": 13, "width": 20 }, { "height": 26, "id": 15, "width": 26 }, { "height": 20, "id": 16, "width": 20 }, { "height": 20, "id": 17, "width": 20 }, { "height": 26, "id": 18, "width": 26 }, { "height": 20, "id": 19, "width": 20 }, { "height": 30, "id": 20, "width": 30 }, { "height": 20, "id": 21, "width": 20 }, { "height": 20, "id": 22, "width": 20 }, { "height": 20, "id": 23, "width": 20 }, { "height": 20, "id": 24, "width": 20 }, { "height": 20, "id": 25, "width": 20 }, { "height": 20, "id": 26, "width": 20 }, { "height": 20, "id": 27, "width": 20 }, { "height": 20, "id": 28, "width": 20 }, { "height": 20, "id": 30, "width": 20 }, { "height": 20, "id": 31, "width": 20 }, { "height": 20, "id": 32, "width": 20 }, { "height": 20, "id": 34, "width": 20 }, { "height": 20, "id": 35, "width": 20 }, { "height": 20, "id": 36, "width": 20 }, { "height": 20, "id": 37, "width": 20 }, { "height": 20, "id": 38, "width": 20 }, { "height": 20, "id": 39, "width": 20 }, { "height": 20, "id": 40, "width": 20 }, { "height": 20, "id": 43, "width": 20 }, { "height": 20, "id": 44, "width": 20 }, { "height": 20, "id": 45, "width": 20 }, { "height": 20, "id": 46, "width": 20 }, { "height": 20, "id": 47, "width": 20 }, { "height": 20, "id": 49, "width": 20 }, { "height": 20, "id": 50, "width": 20 }, { "height": 20, "id": 51, "width": 20 }, { "height": 20, "id": 52, "width": 20 }, { "height": 20, "id": 53, "width": 20 }, { "height": 20, "id": 54, "width": 20 }, { "height": 20, "id": 55, "width": 20 }, { "height": 20, "id": 56, "width": 20 }, { "height": 20, "id": 57, "width": 20 }, { "height": 20, "id": 58, "width": 20 }, { "height": 20, "id": 59, "width": 20 }, { "height": 20, "id": 60, "width": 20 }, { "height": 20, "id": 61, "width": 20 }, { "height": 20, "id": 62, "width": 20 }, { "height": 20, "id": 63, "width": 20 }, { "height": 20, "id": 64, "width": 20 }, { "height": 20, "id": 65, "width": 20 }, { "height": 20, "id": 66, "width": 20 }, { "height": 20, "id": 67, "width": 20 }, { "height": 20, "id": 68, "width": 20 }, { "height": 20, "id": 69, "width": 20 }, { "height": 20, "id": 70, "width": 20 }, { "height": 20, "id": 71, "width": 20 }, { "height": 20, "id": 72, "width": 20 }, { "height": 20, "id": 73, "width": 20 }, { "height": 20, "id": 75, "width": 20 }, { "height": 20, "id": 76, "width": 20 }, { "height": 20, "id": 77, "width": 20 }, { "height": 20, "id": 78, "width": 20 }, { "height": 20, "id": 79, "width": 20 }, { "height": 20, "id": 80, "width": 20 }, { "height": 20, "id": 81, "width": 20 }, { "height": 20, "id": 83, "width": 20 }, { "height": 20, "id": 84, "width": 20 }, { "height": 20, "id": 85, "width": 20 }, { "height": 20, "id": 86, "width": 20 }, { "height": 20, "id": 87, "width": 20 }, { "height": 20, "id": 88, "width": 20 }, { "height": 20, "id": 89, "width": 20 }, { "height": 20, "id": 90, "width": 20 }, { "height": 20, "id": 91, "width": 20 }, { "height": 20, "id": 92, "width": 20 }, { "height": 20, "id": 93, "width": 20 }, { "height": 20, "id": 94, "width": 20 }, { "height": 20, "id": 95, "width": 20 }, { "height": 20, "id": 96, "width": 20 }, { "height": 20, "id": 97, "width": 20 }, { "height": 20, "id": 98, "width": 20 }, { "height": 20, "id": 99, "width": 20 }, { "height": 20, "id": 100, "width": 20 }, { "height": 20, "id": 101, "width": 20 }, { "height": 20, "id": 102, "width": 20 }, { "height": 20, "id": 103, "width": 20 }, { "height": 20, "id": 104, "width": 20 }, { "height": 20, "id": 105, "width": 20 }, { "height": 20, "id": 106, "width": 20 }, { "height": 20, "id": 108, "width": 20 }, { "height": 20, "id": 109, "width": 20 }, { "height": 20, "id": 110, "width": 20 }, { "height": 20, "id": 111, "width": 20 }, { "height": 20, "id": 112, "width": 20 }, { "height": 20, "id": 113, "width": 20 }, { "height": 20, "id": 114, "width": 20 }, { "height": 20, "id": 115, "width": 20 }, { "height": 20, "id": 117, "width": 20 }, { "height": 20, "id": 118, "width": 20 }, { "height": 20, "id": 119, "width": 20 }, { "height": 20, "id": 120, "width": 20 }, { "height": 20, "id": 121, "width": 20 }, { "height": 20, "id": 122, "width": 20 }, { "height": 20, "id": 123, "width": 20 }, { "height": 20, "id": 124, "width": 20 }, { "height": 20, "id": 125, "width": 20 }, { "height": 20, "id": 126, "width": 20 }, { "height": 20, "id": 127, "width": 20 }, { "height": 20, "id": 128, "width": 20 }, { "height": 20, "id": 129, "width": 20 }, { "height": 20, "id": 130, "width": 20 }, { "height": 20, "id": 131, "width": 20 }, { "height": 20, "id": 132, "width": 20 }, { "height": 20, "id": 133, "width": 20 }, { "height": 20, "id": 134, "width": 20 }, { "height": 20, "id": 135, "width": 20 }, { "height": 20, "id": 136, "width": 20 }, { "height": 20, "id": 137, "width": 20 }, { "height": 20, "id": 138, "width": 20 }, { "height": 20, "id": 139, "width": 20 }, { "height": 20, "id": 140, "width": 20 }, { "height": 20, "id": 141, "width": 20 }, { "height": 20, "id": 142, "width": 20 }, { "height": 20, "id": 143, "width": 20 }, { "height": 20, "id": 144, "width": 20 }, { "height": 20, "id": 145, "width": 20 }, { "height": 20, "id": 146, "width": 20 }, { "height": 20, "id": 147, "width": 20 }, { "height": 20, "id": 148, "width": 20 }, { "height": 20, "id": 149, "width": 20 }, { "height": 20, "id": 150, "width": 20 }, { "height": 20, "id": 151, "width": 20 }, { "height": 20, "id": 152, "width": 20 }, { "height": 20, "id": 153, "width": 20 }, { "height": 20, "id": 154, "width": 20 }, { "height": 20, "id": 155, "width": 20 }, { "height": 20, "id": 156, "width": 20 }, { "height": 20, "id": 157, "width": 20 }, { "height": 20, "id": 158, "width": 20 }, { "height": 20, "id": 159, "width": 20 }, { "height": 20, "id": 160, "width": 20 }, { "height": 20, "id": 161, "width": 20 }, { "height": 20, "id": 162, "width": 20 }, { "height": 20, "id": 163, "width": 20 }, { "height": 20, "id": 164, "width": 20 }, { "height": 20, "id": 165, "width": 20 }, { "height": 20, "id": 166, "width": 20 }, { "height": 20, "id": 167, "width": 20 }, { "height": 20, "id": 168, "width": 20 }, { "height": 20, "id": 169, "width": 20 }, { "height": 20, "id": 170, "width": 20 }, { "height": 20, "id": 171, "width": 20 }, { "height": 20, "id": 172, "width": 20 }, { "height": 20, "id": 173, "width": 20 }, { "height": 20, "id": 175, "width": 20 }, { "height": 20, "id": 176, "width": 20 }, { "height": 20, "id": 177, "width": 20 }, { "height": 20, "id": 178, "width": 20 }, { "height": 20, "id": 179, "width": 20 }, { "height": 20, "id": 180, "width": 20 }, { "height": 20, "id": 181, "width": 20 }, { "height": 20, "id": 182, "width": 20 }, { "height": 20, "id": 183, "width": 20 }, { "height": 20, "id": 184, "width": 20 }, { "height": 20, "id": 185, "width": 20 }, { "height": 20, "id": 186, "width": 20 }, { "height": 20, "id": 187, "width": 20 }, { "height": 20, "id": 188, "width": 20 }, { "height": 20, "id": 189, "width": 20 }, { "height": 20, "id": 190, "width": 20 }, { "height": 20, "id": 191, "width": 20 }, { "height": 30, "id": 193, "width": 30 }, { "height": 20, "id": 194, "width": 20 }, { "height": 20, "id": 195, "width": 20 }, { "height": 20, "id": 196, "width": 20 }, { "height": 20, "id": 197, "width": 20 }, { "height": 20, "id": 198, "width": 20 }, { "height": 20, "id": 199, "width": 20 }, { "height": 22, "id": 200, "width": 22 }, { "height": 20, "id": 201, "width": 20 }, { "height": 20, "id": 204, "width": 20 }, { "height": 20, "id": 205, "width": 20 }, { "height": 20, "id": 206, "width": 20 }, { "height": 20, "id": 207, "width": 20 }, { "height": 20, "id": 208, "width": 20 }, { "height": 20, "id": 209, "width": 20 }, { "height": 20, "id": 221, "width": 20 }, { "height": 20, "id": 222, "width": 20 }, { "height": 20, "id": 223, "width": 20 }, { "height": 20, "id": 224, "width": 20 }, { "height": 20, "id": 225, "width": 20 }, { "height": 20, "id": 226, "width": 20 }, { "height": 20, "id": 227, "width": 20 }, { "height": 20, "id": 228, "width": 20 }, { "height": 20, "id": 229, "width": 20 }, { "height": 20, "id": 230, "width": 20 }, { "height": 20, "id": 231, "width": 20 }, { "height": 20, "id": 232, "width": 20 }, { "height": 20, "id": 233, "width": 20 }, { "height": 20, "id": 234, "width": 20 }, { "height": 20, "id": 235, "width": 20 }, { "height": 20, "id": 236, "width": 20 }, { "height": 20, "id": 237, "width": 20 }, { "height": 20, "id": 238, "width": 20 }, { "height": 20, "id": 239, "width": 20 }, { "height": 20, "id": 240, "width": 20 }, { "height": 20, "id": 241, "width": 20 }, { "height": 20, "id": 242, "width": 20 }, { "height": 20, "id": 243, "width": 20 }, { "height": 20, "id": 244, "width": 20 }, { "height": 20, "id": 245, "width": 20 }, { "height": 20, "id": 246, "width": 20 }, { "height": 20, "id": 247, "width": 20 }, { "height": 20, "id": 248, "width": 20 }, { "height": 20, "id": 249, "width": 20 }, { "height": 20, "id": 250, "width": 20 }, { "height": 20, "id": 251, "width": 20 }, { "height": 20, "id": 253, "width": 20 }, { "height": 20, "id": 254, "width": 20 }, { "height": 20, "id": 255, "width": 20 }, { "height": 20, "id": 257, "width": 20 }, { "height": 20, "id": 258, "width": 20 }, { "height": 20, "id": 259, "width": 20 }, { "height": 20, "id": 260, "width": 20 }, { "height": 20, "id": 261, "width": 20 }, { "height": 20, "id": 262, "width": 20 }, { "height": 20, "id": 263, "width": 20 }, { "height": 22, "id": 264, "width": 22 }, { "height": 22, "id": 265, "width": 22 }, { "height": 22, "id": 266, "width": 22 }, { "height": 22, "id": 267, "width": 22 }, { "height": 22, "id": 268, "width": 22 }, { "height": 22, "id": 269, "width": 22 }, { "height": 20, "id": 270, "width": 20 }, { "height": 20, "id": 271, "width": 20 }, { "height": 20, "id": 272, "width": 20 }, { "height": 20, "id": 273, "width": 20 }, { "height": 20, "id": 279, "width": 20 }, { "height": 20, "id": 280, "width": 20 }, { "height": 20, "id": 282, "width": 20 }, { "height": 20, "id": 283, "width": 20 }, { "height": 20, "id": 285, "width": 20 }, { "height": 20, "id": 286, "width": 20 }, { "height": 20, "id": 288, "width": 20 }, { "height": 20, "id": 289, "width": 20 }, { "height": 20, "id": 290, "width": 20 }, { "height": 20, "id": 291, "width": 20 }, { "height": 20, "id": 292, "width": 20 }, { "height": 20, "id": 293, "width": 20 }, { "height": 20, "id": 294, "width": 20 }, { "height": 20, "id": 295, "width": 20 }, { "height": 20, "id": 296, "width": 20 }, { "height": 20, "id": 297, "width": 20 }, { "height": 20, "id": 298, "width": 20 }, { "height": 20, "id": 299, "width": 20 }, { "height": 20, "id": 300, "width": 20 }, { "height": 20, "id": 301, "width": 20 }, { "height": 20, "id": 302, "width": 20 }, { "height": 20, "id": 303, "width": 20 }, { "height": 20, "id": 304, "width": 20 }, { "height": 20, "id": 305, "width": 20 }, { "height": 20, "id": 306, "width": 20 }, { "height": 20, "id": 307, "width": 20 }, { "height": 20, "id": 308, "width": 20 }, { "height": 20, "id": 309, "width": 20 }, { "height": 20, "id": 310, "width": 20 }, { "height": 20, "id": 311, "width": 20 }, { "height": 20, "id": 312, "width": 20 }, { "height": 20, "id": 313, "width": 20 }, { "height": 20, "id": 314, "width": 20 }, { "height": 20, "id": 315, "width": 20 }, { "height": 20, "id": 316, "width": 20 }, { "height": 20, "id": 317, "width": 20 }, { "height": 20, "id": 318, "width": 20 }, { "height": 20, "id": 320, "width": 20 }, { "height": 20, "id": 321, "width": 20 }, { "height": 20, "id": 322, "width": 20 }, { "height": 20, "id": 329, "width": 20 }, { "height": 20, "id": 330, "width": 20 }, { "height": 20, "id": 331, "width": 20 }, { "height": 20, "id": 332, "width": 20 }, { "height": 20, "id": 333, "width": 20 }, { "height": 22, "id": 334, "width": 22 }, { "height": 20, "id": 335, "width": 20 }, { "height": 20, "id": 336, "width": 20 }, { "height": 22, "id": 337, "width": 22 }, { "height": 20, "id": 338, "width": 20 }, { "height": 19, "id": 339, "width": 20 }, { "height": 20, "id": 340, "width": 20 }, { "height": 20, "id": 341, "width": 20 }, { "height": 20, "id": 342, "width": 20 }, { "height": 20, "id": 343, "width": 20 }, { "height": 20, "id": 344, "width": 20 }, { "height": 20, "id": 345, "width": 20 }, { "height": 20, "id": 346, "width": 20 }, { "height": 20, "id": 347, "width": 20 }, { "height": 20, "id": 348, "width": 20 }, { "height": 20, "id": 349, "width": 20 }, { "height": 20, "id": 350, "width": 20 }, { "height": 20, "id": 351, "width": 20 }, { "height": 20, "id": 352, "width": 20 }, { "height": 20, "id": 353, "width": 20 }, { "height": 20, "id": 354, "width": 20 }, { "height": 20, "id": 355, "width": 20 }, { "height": 20, "id": 356, "width": 20 }, { "height": 20, "id": 357, "width": 20 }, { "height": 20, "id": 358, "width": 20 }, { "height": 20, "id": 359, "width": 20 }, { "height": 20, "id": 360, "width": 20 }, { "height": 20, "id": 361, "width": 20 }, { "height": 20, "id": 362, "width": 20 }, { "height": 20, "id": 363, "width": 20 }, { "height": 20, "id": 364, "width": 20 }, { "height": 20, "id": 365, "width": 20 }, { "height": 20, "id": 367, "width": 20 }, { "height": 20, "id": 368, "width": 20 }, { "height": 20, "id": 369, "width": 20 }, { "height": 20, "id": 371, "width": 20 }, { "height": 20, "id": 372, "width": 20 }, { "height": 20, "id": 373, "width": 20 }, { "height": 20, "id": 374, "width": 20 }, { "height": 20, "id": 375, "width": 20 }, { "height": 20, "id": 376, "width": 20 }, { "height": 20, "id": 377, "width": 20 }, { "height": 20, "id": 378, "width": 20 }, { "height": 20, "id": 379, "width": 20 }, { "height": 20, "id": 380, "width": 20 }, { "height": 20, "id": 381, "width": 20 }, { "height": 20, "id": 382, "width": 20 }, { "height": 20, "id": 383, "width": 20 }, { "height": 20, "id": 384, "width": 20 }, { "height": 20, "id": 385, "width": 20 }, { "height": 20, "id": 386, "width": 20 }, { "height": 20, "id": 387, "width": 20 }, { "height": 20, "id": 388, "width": 20 }, { "height": 20, "id": 389, "width": 20 }, { "height": 20, "id": 390, "width": 20 }, { "height": 20, "id": 391, "width": 20 }, { "height": 20, "id": 395, "width": 20 }, { "height": 20, "id": 396, "width": 20 }, { "height": 20, "id": 397, "width": 20 }, { "height": 20, "id": 398, "width": 20 }, { "height": 20, "id": 399, "width": 20 }, { "height": 20, "id": 400, "width": 20 }, { "height": 20, "id": 401, "width": 20 }, { "height": 20, "id": 402, "width": 20 }, { "height": 20, "id": 403, "width": 20 }, { "height": 20, "id": 404, "width": 20 }, { "height": 20, "id": 405, "width": 20 }, { "height": 20, "id": 407, "width": 20 }, { "height": 20, "id": 408, "width": 20 }, { "height": 20, "id": 410, "width": 20 }, { "height": 20, "id": 411, "width": 20 }, { "height": 20, "id": 412, "width": 20 }, { "height": 20, "id": 414, "width": 20 }, { "height": 20, "id": 415, "width": 20 }, { "height": 20, "id": 416, "width": 20 }, { "height": 20, "id": 417, "width": 20 }, { "height": 20, "id": 418, "width": 20 }, { "height": 20, "id": 419, "width": 20 }, { "height": 20, "id": 420, "width": 20 }, { "height": 20, "id": 421, "width": 20 }, { "height": 20, "id": 422, "width": 20 }, { "height": 20, "id": 423, "width": 20 }, { "height": 20, "id": 424, "width": 20 }, { "height": 20, "id": 425, "width": 20 }, { "height": 20, "id": 426, "width": 20 }, { "height": 20, "id": 427, "width": 20 }, { "height": 20, "id": 428, "width": 20 }, { "height": 20, "id": 429, "width": 20 }, { "height": 20, "id": 430, "width": 20 }, { "height": 20, "id": 431, "width": 20 }, { "height": 20, "id": 432, "width": 20 }, { "height": 20, "id": 433, "width": 20 }, { "height": 20, "id": 434, "width": 20 }, { "height": 20, "id": 435, "width": 20 }, { "height": 20, "id": 436, "width": 20 }, { "height": 20, "id": 437, "width": 20 }, { "height": 20, "id": 438, "width": 20 }, { "height": 20, "id": 439, "width": 20 }, { "height": 20, "id": 440, "width": 20 }, { "height": 20, "id": 441, "width": 20 }, { "height": 20, "id": 442, "width": 20 }, { "height": 20, "id": 443, "width": 20 }, { "height": 20, "id": 444, "width": 20 }, { "height": 20, "id": 445, "width": 20 }, { "height": 20, "id": 446, "width": 20 }, { "height": 20, "id": 447, "width": 20 }, { "height": 30, "id": 448, "width": 30 }, { "height": 20, "id": 449, "width": 20 }], "poitype": [{ "icon_id": 449, "id": 999 }, { "icon_id": 292, "id": 1000 }, { "icon_id": 408, "id": 1001 }, { "icon_id": 43, "id": 1002 }, { "icon_id": 43, "id": 1003 }, { "icon_id": 43, "id": 1006 }, { "icon_id": 25, "id": 1007 }, { "icon_id": 43, "id": 1008 }, { "icon_id": 52, "id": 1012 }, { "icon_id": 52, "id": 1013 }, { "icon_id": 52, "id": 1014 }, { "icon_id": 70, "id": 1015 }, { "icon_id": 73, "id": 1016 }, { "icon_id": 73, "id": 1017 }, { "icon_id": 73, "id": 1018 }, { "icon_id": 391, "id": 1021 }, { "icon_id": 391, "id": 1022 }, { "icon_id": 125, "id": 1030 }, { "icon_id": 128, "id": 1031 }, { "icon_id": 52, "id": 1035 }, { "icon_id": 415, "id": 1036 }, { "icon_id": 147, "id": 1050 }, { "icon_id": 11, "id": 1051 }, { "icon_id": 11, "id": 1052 }, { "icon_id": 389, "id": 1053 }, { "icon_id": 110, "id": 1054 }, { "icon_id": 371, "id": 1055 }, { "icon_id": 372, "id": 1056 }, { "icon_id": 390, "id": 1057 }, { "icon_id": 11, "id": 1059 }, { "icon_id": 373, "id": 1060 }, { "icon_id": 417, "id": 1061 }, { "icon_id": 11, "id": 1062 }, { "icon_id": 417, "id": 1063 }, { "icon_id": 405, "id": 1108 }, { "icon_id": 335, "id": 1109 }, { "icon_id": 386, "id": 1110 }, { "icon_id": 221, "id": 1111 }, { "icon_id": 270, "id": 1112 }, { "icon_id": 369, "id": 1113 }, { "icon_id": 384, "id": 1114 }, { "icon_id": 34, "id": 1115 }, { "icon_id": 361, "id": 1116 }, { "icon_id": 384, "id": 1117 }, { "icon_id": 135, "id": 1118 }, { "icon_id": 312, "id": 1119 }, { "icon_id": 312, "id": 1120 }, { "icon_id": 308, "id": 1121 }, { "icon_id": 179, "id": 1122 }, { "icon_id": 342, "id": 1123 }, { "icon_id": 34, "id": 1125 }, { "icon_id": 135, "id": 1126 }, { "icon_id": 341, "id": 1127 }, { "icon_id": 51, "id": 1128 }, { "icon_id": 63, "id": 1129 }, { "icon_id": 156, "id": 1131 }, { "icon_id": 312, "id": 1132 }, { "icon_id": 273, "id": 1133 }, { "icon_id": 204, "id": 1134 }, { "icon_id": 340, "id": 1135 }, { "icon_id": 115, "id": 1136 }, { "icon_id": 303, "id": 1137 }, { "icon_id": 24, "id": 1210 }, { "icon_id": 46, "id": 1211 }, { "icon_id": 51, "id": 1212 }, { "icon_id": 50, "id": 1213 }, { "icon_id": 59, "id": 1214 }, { "icon_id": 60, "id": 1215 }, { "icon_id": 63, "id": 1216 }, { "icon_id": 66, "id": 1217 }, { "icon_id": 243, "id": 1218 }, { "icon_id": 46, "id": 1219 }, { "icon_id": 46, "id": 1220 }, { "icon_id": 3, "id": 1221 }, { "icon_id": 3, "id": 1222 }, { "icon_id": 3, "id": 1223 }, { "icon_id": 120, "id": 1224 }, { "icon_id": 143, "id": 1225 }, { "icon_id": 152, "id": 1226 }, { "icon_id": 51, "id": 1227 }, { "icon_id": 380, "id": 1228 }, { "icon_id": 187, "id": 1229 }, { "icon_id": 188, "id": 1230 }, { "icon_id": 190, "id": 1231 }, { "icon_id": 227, "id": 1232 }, { "icon_id": 37, "id": 1233 }, { "icon_id": 351, "id": 1234 }, { "icon_id": 242, "id": 1236 }, { "icon_id": 244, "id": 1237 }, { "icon_id": 134, "id": 1238 }, { "icon_id": 235, "id": 1239 }, { "icon_id": 243, "id": 1240 }, { "icon_id": 191, "id": 1241 }, { "icon_id": 76, "id": 1242 }, { "icon_id": 188, "id": 1243 }, { "icon_id": 115, "id": 1244 }, { "icon_id": 381, "id": 1245 }, { "icon_id": 187, "id": 1246 }, { "icon_id": 188, "id": 1247 }, { "icon_id": 190, "id": 1248 }, { "icon_id": 51, "id": 1253 }, { "icon_id": 140, "id": 1254 }, { "icon_id": 236, "id": 1255 }, { "icon_id": 222, "id": 1256 }, { "icon_id": 22, "id": 1257 }, { "icon_id": 300, "id": 1258 }, { "icon_id": 244, "id": 1259 }, { "icon_id": 178, "id": 1260 }, { "icon_id": 183, "id": 1261 }, { "icon_id": 204, "id": 1262 }, { "icon_id": 59, "id": 1263 }, { "icon_id": 22, "id": 1264 }, { "icon_id": 414, "id": 1265 }, { "icon_id": 416, "id": 1266 }, { "icon_id": 424, "id": 1267 }, { "icon_id": 382, "id": 1268 }, { "icon_id": 108, "id": 1310 }, { "icon_id": 157, "id": 1311 }, { "icon_id": 338, "id": 1313 }, { "icon_id": 367, "id": 1410 }, { "icon_id": 175, "id": 1411 }, { "icon_id": 359, "id": 1412 }, { "icon_id": 368, "id": 1413 }, { "icon_id": 55, "id": 1414 }, { "icon_id": 68, "id": 1415 }, { "icon_id": 388, "id": 1417 }, { "icon_id": 68, "id": 1421 }, { "icon_id": 429, "id": 1422 }, { "icon_id": 368, "id": 1423 }, { "icon_id": 129, "id": 1424 }, { "icon_id": 139, "id": 1425 }, { "icon_id": 159, "id": 1427 }, { "icon_id": 139, "id": 1428 }, { "icon_id": 363, "id": 1429 }, { "icon_id": 173, "id": 1430 }, { "icon_id": 159, "id": 1431 }, { "icon_id": 186, "id": 1432 }, { "icon_id": 114, "id": 1433 }, { "icon_id": 329, "id": 1434 }, { "icon_id": 97, "id": 1437 }, { "icon_id": 138, "id": 1438 }, { "icon_id": 355, "id": 1439 }, { "icon_id": 173, "id": 1440 }, { "icon_id": 249, "id": 1441 }, { "icon_id": 249, "id": 1442 }, { "icon_id": 177, "id": 1443 }, { "icon_id": 367, "id": 1445 }, { "icon_id": 55, "id": 1447 }, { "icon_id": 129, "id": 1449 }, { "icon_id": 316, "id": 1450 }, { "icon_id": 71, "id": 1452 }, { "icon_id": 131, "id": 1599 }, { "icon_id": 130, "id": 1600 }, { "icon_id": 160, "id": 1601 }, { "icon_id": 170, "id": 1602 }, { "icon_id": 84, "id": 1603 }, { "icon_id": 87, "id": 1604 }, { "icon_id": 89, "id": 1605 }, { "icon_id": 85, "id": 1606 }, { "icon_id": 32, "id": 1607 }, { "icon_id": 148, "id": 1608 }, { "icon_id": 111, "id": 1609 }, { "icon_id": 57, "id": 1610 }, { "icon_id": 53, "id": 1611 }, { "icon_id": 93, "id": 1612 }, { "icon_id": 180, "id": 1613 }, { "icon_id": 95, "id": 1614 }, { "icon_id": 184, "id": 1615 }, { "icon_id": 171, "id": 1616 }, { "icon_id": 161, "id": 1617 }, { "icon_id": 150, "id": 1618 }, { "icon_id": 126, "id": 1619 }, { "icon_id": 126, "id": 1620 }, { "icon_id": 89, "id": 1621 }, { "icon_id": 88, "id": 1622 }, { "icon_id": 90, "id": 1623 }, { "icon_id": 86, "id": 1624 }, { "icon_id": 410, "id": 1625 }, { "icon_id": 149, "id": 1626 }, { "icon_id": 112, "id": 1627 }, { "icon_id": 58, "id": 1628 }, { "icon_id": 54, "id": 1629 }, { "icon_id": 185, "id": 1633 }, { "icon_id": 162, "id": 1635 }, { "icon_id": 127, "id": 1636 }, { "icon_id": 127, "id": 1637 }, { "icon_id": 127, "id": 1638 }, { "icon_id": 90, "id": 1639 }, { "icon_id": 126, "id": 1640 }, { "icon_id": 161, "id": 1641 }, { "icon_id": 2, "id": 2000 }, { "icon_id": 417, "id": 2001 }, { "icon_id": 417, "id": 2002 }, { "icon_id": 389, "id": 2003 }, { "icon_id": 2, "id": 2007 }, { "icon_id": 5, "id": 2021 }, { "icon_id": 5, "id": 2022 }, { "icon_id": 9, "id": 2023 }, { "icon_id": 4, "id": 2024 }, { "icon_id": 10, "id": 2025 }, { "icon_id": 10, "id": 2026 }, { "icon_id": 10, "id": 2027 }, { "icon_id": 10, "id": 2028 }, { "icon_id": 19, "id": 2029 }, { "icon_id": 1, "id": 2030 }, { "icon_id": 15, "id": 2031 }, { "icon_id": 4, "id": 2032 }, { "icon_id": 4, "id": 2033 }, { "icon_id": 8, "id": 2034 }, { "icon_id": 13, "id": 2035 }, { "icon_id": 6, "id": 2036 }, { "icon_id": 16, "id": 2037 }, { "icon_id": 4, "id": 2039 }, { "icon_id": 5, "id": 2040 }, { "icon_id": 1, "id": 2041 }, { "icon_id": 1, "id": 2042 }, { "icon_id": 4, "id": 2043 }, { "icon_id": 7, "id": 2044 }, { "icon_id": 4, "id": 2045 }, { "icon_id": 21, "id": 2046 }, { "icon_id": 17, "id": 2047 }, { "icon_id": 11, "id": 2048 }, { "icon_id": 1, "id": 2049 }, { "icon_id": 1, "id": 2050 }, { "icon_id": 5, "id": 2052 }, { "icon_id": 13, "id": 2053 }, { "icon_id": 8, "id": 2054 }, { "icon_id": 13, "id": 2055 }, { "icon_id": 16, "id": 2056 }, { "icon_id": 13, "id": 2057 }, { "icon_id": 5, "id": 2058 }, { "icon_id": 1, "id": 2059 }, { "icon_id": 20, "id": 2060 }, { "icon_id": 18, "id": 2061 }, { "icon_id": 7, "id": 2062 }, { "icon_id": 339, "id": 3003 }, { "icon_id": 301, "id": 3201 }, { "icon_id": 292, "id": 3205 }, { "icon_id": 293, "id": 3206 }, { "icon_id": 293, "id": 3207 }, { "icon_id": 239, "id": 3211 }, { "icon_id": 240, "id": 3212 }, { "icon_id": 240, "id": 3213 }, { "icon_id": 305, "id": 3221 }, { "icon_id": 306, "id": 3222 }, { "icon_id": 306, "id": 3223 }, { "icon_id": 343, "id": 3231 }, { "icon_id": 344, "id": 3232 }, { "icon_id": 232, "id": 3241 }, { "icon_id": 233, "id": 3242 }, { "icon_id": 233, "id": 3243 }, { "icon_id": 316, "id": 3251 }, { "icon_id": 317, "id": 3253 }, { "icon_id": 237, "id": 3261 }, { "icon_id": 238, "id": 3262 }, { "icon_id": 295, "id": 3271 }, { "icon_id": 296, "id": 3272 }, { "icon_id": 352, "id": 3281 }, { "icon_id": 353, "id": 3282 }, { "icon_id": 245, "id": 3285 }, { "icon_id": 246, "id": 3286 }, { "icon_id": 286, "id": 3291 }, { "icon_id": 280, "id": 3301 }, { "icon_id": 282, "id": 3303 }, { "icon_id": 283, "id": 3311 }, { "icon_id": 356, "id": 3321 }, { "icon_id": 357, "id": 3322 }, { "icon_id": 357, "id": 3323 }, { "icon_id": 247, "id": 3325 }, { "icon_id": 248, "id": 3326 }, { "icon_id": 313, "id": 3331 }, { "icon_id": 314, "id": 3332 }, { "icon_id": 250, "id": 3341 }, { "icon_id": 271, "id": 3351 }, { "icon_id": 272, "id": 3352 }, { "icon_id": 272, "id": 3353 }, { "icon_id": 330, "id": 3355 }, { "icon_id": 331, "id": 3356 }, { "icon_id": 331, "id": 3357 }, { "icon_id": 348, "id": 3361 }, { "icon_id": 349, "id": 3362 }, { "icon_id": 349, "id": 3363 }, { "icon_id": 310, "id": 3365 }, { "icon_id": 311, "id": 3366 }, { "icon_id": 311, "id": 3367 }, { "icon_id": 228, "id": 3371 }, { "icon_id": 229, "id": 3372 }, { "icon_id": 229, "id": 3373 }, { "icon_id": 223, "id": 3375 }, { "icon_id": 224, "id": 3376 }, { "icon_id": 224, "id": 3377 }, { "icon_id": 289, "id": 3381 }, { "icon_id": 290, "id": 3382 }, { "icon_id": 290, "id": 3383 }, { "icon_id": 225, "id": 3391 }, { "icon_id": 226, "id": 3392 }, { "icon_id": 226, "id": 3393 }, { "icon_id": 321, "id": 3395 }, { "icon_id": 322, "id": 3396 }, { "icon_id": 387, "id": 4009 }, { "icon_id": 382, "id": 4010 }, { "icon_id": 152, "id": 5014 }, { "icon_id": 119, "id": 5112 }, { "icon_id": 117, "id": 5113 }, { "icon_id": 122, "id": 5114 }, { "icon_id": 142, "id": 5115 }, { "icon_id": 141, "id": 5116 }, { "icon_id": 320, "id": 5117 }, { "icon_id": 163, "id": 5118 }, { "icon_id": 354, "id": 5121 }, { "icon_id": 122, "id": 5122 }, { "icon_id": 412, "id": 5123 }, { "icon_id": 30, "id": 5210 }, { "icon_id": 39, "id": 5211 }, { "icon_id": 44, "id": 5212 }, { "icon_id": 158, "id": 5213 }, { "icon_id": 62, "id": 5214 }, { "icon_id": 64, "id": 5215 }, { "icon_id": 91, "id": 5216 }, { "icon_id": 189, "id": 5217 }, { "icon_id": 38, "id": 5218 }, { "icon_id": 137, "id": 5300 }, { "icon_id": 36, "id": 5308 }, { "icon_id": 35, "id": 5309 }, { "icon_id": 26, "id": 5310 }, { "icon_id": 28, "id": 5311 }, { "icon_id": 27, "id": 5312 }, { "icon_id": 36, "id": 5313 }, { "icon_id": 35, "id": 5314 }, { "icon_id": 419, "id": 5315 }, { "icon_id": 113, "id": 5316 }, { "icon_id": 130, "id": 5318 }, { "icon_id": 65, "id": 5319 }, { "icon_id": 65, "id": 5321 }, { "icon_id": 133, "id": 5322 }, { "icon_id": 26, "id": 5323 }, { "icon_id": 136, "id": 5324 }, { "icon_id": 38, "id": 5326 }, { "icon_id": 136, "id": 5327 }, { "icon_id": 364, "id": 5328 }, { "icon_id": 362, "id": 5329 }, { "icon_id": 182, "id": 5330 }, { "icon_id": 23, "id": 5400 }, { "icon_id": 69, "id": 5401 }, { "icon_id": 154, "id": 5409 }, { "icon_id": 145, "id": 5410 }, { "icon_id": 31, "id": 5411 }, { "icon_id": 45, "id": 5412 }, { "icon_id": 56, "id": 5413 }, { "icon_id": 379, "id": 5414 }, { "icon_id": 67, "id": 5415 }, { "icon_id": 109, "id": 5416 }, { "icon_id": 121, "id": 5417 }, { "icon_id": 144, "id": 5418 }, { "icon_id": 146, "id": 5419 }, { "icon_id": 153, "id": 5420 }, { "icon_id": 84, "id": 5421 }, { "icon_id": 75, "id": 5422 }, { "icon_id": 196, "id": 5423 }, { "icon_id": 396, "id": 5424 }, { "icon_id": 47, "id": 5425 }, { "icon_id": 197, "id": 5426 }, { "icon_id": 75, "id": 5429 }, { "icon_id": 254, "id": 5430 }, { "icon_id": 253, "id": 5431 }, { "icon_id": 197, "id": 5432 }, { "icon_id": 195, "id": 5433 }, { "icon_id": 162, "id": 5434 }, { "icon_id": 83, "id": 5435 }, { "icon_id": 378, "id": 5436 }, { "icon_id": 374, "id": 5437 }, { "icon_id": 376, "id": 5438 }, { "icon_id": 377, "id": 5439 }, { "icon_id": 375, "id": 5440 }, { "icon_id": 421, "id": 5441 }, { "icon_id": 420, "id": 5442 }, { "icon_id": 422, "id": 5443 }, { "icon_id": 144, "id": 5444 }, { "icon_id": 374, "id": 5445 }, { "icon_id": 144, "id": 5446 }, { "icon_id": 144, "id": 5447 }, { "icon_id": 144, "id": 5448 }, { "icon_id": 144, "id": 5449 }, { "icon_id": 144, "id": 5450 }, { "icon_id": 144, "id": 5452 }, { "icon_id": 144, "id": 5453 }, { "icon_id": 144, "id": 5454 }, { "icon_id": 144, "id": 5455 }, { "icon_id": 144, "id": 5456 }, { "icon_id": 144, "id": 5457 }, { "icon_id": 144, "id": 5458 }, { "icon_id": 144, "id": 5459 }, { "icon_id": 144, "id": 5460 }, { "icon_id": 49, "id": 5510 }, { "icon_id": 49, "id": 5511 }, { "icon_id": 61, "id": 5512 }, { "icon_id": 132, "id": 5513 }, { "icon_id": 49, "id": 5514 }, { "icon_id": 49, "id": 5515 }, { "icon_id": 49, "id": 5516 }, { "icon_id": 49, "id": 5517 }, { "icon_id": 49, "id": 5518 }, { "icon_id": 37, "id": 5520 }, { "icon_id": 231, "id": 5610 }, { "icon_id": 72, "id": 5611 }, { "icon_id": 72, "id": 5612 }, { "icon_id": 104, "id": 5613 }, { "icon_id": 418, "id": 5614 }, { "icon_id": 164, "id": 5616 }, { "icon_id": 49, "id": 5617 }, { "icon_id": 166, "id": 5618 }, { "icon_id": 168, "id": 5619 }, { "icon_id": 165, "id": 5620 }, { "icon_id": 165, "id": 5621 }, { "icon_id": 40, "id": 5622 }, { "icon_id": 98, "id": 5623 }, { "icon_id": 99, "id": 5624 }, { "icon_id": 101, "id": 5625 }, { "icon_id": 100, "id": 5626 }, { "icon_id": 102, "id": 5627 }, { "icon_id": 423, "id": 5628 }, { "icon_id": 99, "id": 5629 }, { "icon_id": 397, "id": 5630 }, { "icon_id": 407, "id": 5631 }, { "icon_id": 27, "id": 5632 }, { "icon_id": 423, "id": 5633 }, { "icon_id": 403, "id": 5634 }, { "icon_id": 399, "id": 5635 }, { "icon_id": 398, "id": 5636 }, { "icon_id": 401, "id": 5637 }, { "icon_id": 402, "id": 5638 }, { "icon_id": 400, "id": 5639 }, { "icon_id": 397, "id": 5640 }, { "icon_id": 404, "id": 5641 }, { "icon_id": 405, "id": 5642 }, { "icon_id": 163, "id": 5643 }, { "icon_id": 354, "id": 5644 }, { "icon_id": 64, "id": 5645 }, { "icon_id": 141, "id": 5646 }, { "icon_id": 142, "id": 5647 }, { "icon_id": 165, "id": 5648 }, { "icon_id": 84, "id": 5649 }, { "icon_id": 169, "id": 5650 }, { "icon_id": 397, "id": 5651 }, { "icon_id": 375, "id": 5652 }, { "icon_id": 137, "id": 5653 }, { "icon_id": 382, "id": 5654 }, { "icon_id": 30, "id": 5655 }, { "icon_id": 405, "id": 5656 }, { "icon_id": 30, "id": 5657 }, { "icon_id": 156, "id": 5658 }, { "icon_id": 443, "id": 5659 }, { "icon_id": 2, "id": 5660 }, { "icon_id": 425, "id": 5661 }, { "icon_id": 426, "id": 5662 }, { "icon_id": 427, "id": 5663 }, { "icon_id": 428, "id": 5664 }, { "icon_id": 429, "id": 5665 }, { "icon_id": 430, "id": 5666 }, { "icon_id": 431, "id": 5667 }, { "icon_id": 432, "id": 5668 }, { "icon_id": 433, "id": 5669 }, { "icon_id": 434, "id": 5670 }, { "icon_id": 435, "id": 5671 }, { "icon_id": 436, "id": 5672 }, { "icon_id": 437, "id": 5673 }, { "icon_id": 438, "id": 5674 }, { "icon_id": 439, "id": 5675 }, { "icon_id": 440, "id": 5676 }, { "icon_id": 441, "id": 5677 }, { "icon_id": 442, "id": 5678 }, { "icon_id": 443, "id": 5679 }, { "icon_id": 444, "id": 5680 }, { "icon_id": 445, "id": 5681 }, { "icon_id": 446, "id": 5682 }, { "icon_id": 447, "id": 5683 }, { "icon_id": 103, "id": 5684 }, { "icon_id": 30, "id": 5689 }, { "icon_id": 362, "id": 5690 }, { "icon_id": 189, "id": 5697 }, { "icon_id": 156, "id": 5701 }, { "icon_id": 155, "id": 6000 }, { "icon_id": 198, "id": 6001 }, { "icon_id": 336, "id": 6002 }, { "icon_id": 125, "id": 6006 }, { "icon_id": 169, "id": 6007 }, { "icon_id": 169, "id": 6008 }, { "icon_id": 279, "id": 6009 }, { "icon_id": 260, "id": 6010 }, { "icon_id": 262, "id": 6011 }, { "icon_id": 263, "id": 6012 }, { "icon_id": 258, "id": 6013 }, { "icon_id": 261, "id": 6014 }, { "icon_id": 259, "id": 6015 }, { "icon_id": 70, "id": 6020 }, { "icon_id": 264, "id": 6500 }, { "icon_id": 267, "id": 6501 }, { "icon_id": 265, "id": 6502 }, { "icon_id": 266, "id": 6503 }, { "icon_id": 268, "id": 6504 }, { "icon_id": 269, "id": 6505 }, { "icon_id": 334, "id": 6506 }, { "icon_id": 200, "id": 6507 }, { "icon_id": 337, "id": 6508 }, { "icon_id": 70, "id": 6509 }, { "icon_id": 125, "id": 6510 }, { "icon_id": 169, "id": 6511 }, { "icon_id": 169, "id": 6512 }, { "icon_id": 279, "id": 6513 }, { "icon_id": 347, "id": 11411 }, { "icon_id": 68, "id": 11415 }, { "icon_id": 139, "id": 11425 }, { "icon_id": 159, "id": 11431 }, { "icon_id": 448, "id": 20000 }, { "icon_id": 332, "id": 55554 }, { "icon_id": 332, "id": 55555 }, { "icon_id": 332, "id": 888888 }], "status": 200, "statusMessage": "Ok" }, "poiicons": true, "strKeys": [] }, {
+        "response": {
+            "poi": [{
+                "description": "Restaurace v duchu Hrabalových povídek. V nabídce polední menu každý den,&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Vinohrady", "district": "Praha 2", "house_num": "534/14", "street": "Záhřebská", "zip": "12000" },
+                    "contact": { "email": ["hlucnasamota@seznam.cz"], "phone": [{ "countrycode": "+420", "number": "222522839", "type": "telefon" }, { "countrycode": "+420", "number": "222522839", "type": "fax" }, { "countrycode": "+420", "number": "603554429", "type": "mobil" }], "url": "http://www.hlucna-samota.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-329312" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [12, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [12, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 329312,
+                "mark": { "lat": 50.071591984004826, "lon": 14.436248464564795 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201307/2916/bd/51f695e0bd1b68f81b3d0900?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201307/2916/bd/51f695e0bd1b68f81b3d0900?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.22388059701492538, "293": 0.7761194029850746 }, "isPaid": true, "query": "restaurace", "subjectId": 2065313 },
+                "title": "Hlučná samota",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurace s českou i mezinárodní kuchyní. Nabízíme pečená kolena,&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Nové Město", "district": "Praha 1", "house_num": "1740/7", "street": "Na Struze", "zip": "11000" },
+                    "contact": { "email": ["restauraceuzpevacku@seznam.cz"], "phone": [{ "countrycode": "+420", "number": "777145742", "type": "mobil" }, { "countrycode": "+420", "number": "224930493", "type": "telefon" }, { "countrycode": "+420", "number": "608243317", "type": "mobil" }], "url": "http://www.uzpevacku.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-494358" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 494358,
+                "mark": { "lat": 50.07965437824001, "lon": 14.415023429786826 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201404/0707/99/534253fb99e1fcaa51bf0200?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201404/0707/99/534253fb99e1fcaa51bf0200?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 1 }, "isPaid": true, "query": "restaurace", "subjectId": 2135569 },
+                "title": "Restaurace U Zpěváčků",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurace s nabídkou zejména české moderní kuchyně a denního menu&hellip;",
+                "extend": {
+                    "address": { "city": "Brno, Černovice", "district": "Brno-město", "house_num": "36/17", "street": "Faměrovo náměstí", "zip": "61800" },
+                    "contact": { "email": ["info@hostinecslunecnice.cz"], "phone": [{ "countrycode": "+420", "number": "548535100", "type": "telefon" }, { "countrycode": "+420", "number": "775998204", "type": "mobil" }], "url": "http://www.hostinecslunecnice.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-639315" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 639315,
+                "mark": { "lat": 49.17592653050352, "lon": 16.63857859366638 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201702/2212/8e/58ad83f88eb41e18a9970200?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201702/2212/8e/58ad83f88eb41e18a9970200?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 0.75, "28844": 0.25 }, "isPaid": true, "query": "restaurace", "subjectId": 2163282 },
+                "title": "Restaurace Slunečnice",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Jsme jihoamerická restaurace, pečeme argentinské steaky, máme otevřený&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Smíchov", "district": "Praha 5", "house_num": "284/42", "street": "Lidická", "zip": "15000" },
+                    "contact": { "email": ["info@elbarrio.cz"], "phone": [{ "countrycode": "+420", "number": "725535555", "type": "mobil" }], "url": "http://www.elbarrio.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-747423" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [12, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [12, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 747423,
+                "mark": { "lat": 50.07218273350998, "lon": 14.404491984033006 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201307/2618/68/51f2baba684102e19cab0700?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201307/2618/68/51f2baba684102e19cab0700?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.31746031746031744, "293": 0.6825396825396826 }, "isPaid": true, "query": "restaurace", "subjectId": 2198251 },
+                "title": "El Barrio de Ángel",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Příjemné prostředí zámecké restaurace, zimní zasklené zahrady&hellip;",
+                "extend": {
+                    "address": { "city": "Praha", "district": "Praha 4", "house_num": "1/6", "street": "Před nádražím", "zip": "14000" },
+                    "contact": { "email": ["restaurace@chateauhotel.cz", "info@chateauhotel.cz"], "phone": [{ "countrycode": "+420", "number": "601577484", "type": "mobil" }, { "countrycode": "+420", "number": "241445717", "type": "recepce" }, { "countrycode": "+420", "number": "725826970", "type": "manažer restaurace" }, { "countrycode": "+420", "number": "602604015", "type": "obchodní oddělení" }], "url": "http://www.chateauhotel.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-2169255" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [7, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 2169255,
+                "mark": { "lat": 50.03532409667969, "lon": 14.447761535644531 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201402/2017/6c/53063a676cab709d3ea61200?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201402/2017/6c/53063a676cab709d3ea61200?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.3968253968253968, "293": 0.4444444444444444, "28844": 0.15873015873015872 }, "isPaid": true, "query": "restaurace", "subjectId": 2109791 },
+                "title": "Restaurace Chateau Svatý Havel",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurace se nachází v samém centru Smíchova pár metrů od pěší zóny&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Smíchov", "district": "Praha 5", "house_num": "1219/27", "street": "Jindřicha Plachty", "zip": "15000" },
+                    "contact": { "email": ["rezervace@plachta.cz"], "phone": [{ "countrycode": "+420", "number": "721457392", "type": "mobil" }], "url": "http://www.plachta.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12713055" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 12713055,
+                "mark": { "lat": 50.07031447967731, "lon": 14.405803341821677 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/1016/97/59133d3197e6ec87b59c0d00?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/1016/97/59133d3197e6ec87b59c0d00?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.2857142857142857, "293": 0.7142857142857143 }, "isPaid": true, "query": "restaurace", "subjectId": 3738598 },
+                "title": "Restaurace Plachta",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Stylová restaurace od roku 1991 v secesním stylu s nabídkou české&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Lhotka", "district": "Praha 4", "house_num": "124/54", "street": "K Novému dvoru", "zip": "14200" },
+                    "contact": { "email": ["restaurant@villavoyta.cz"], "phone": [{ "countrycode": "+420", "number": "734234036", "type": "mobil" }], "url": "http://www.villavoyta.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12765968" },
+                    "opening": {
+                        "msg": "Po dohodě se přizpůsobíme vašim požadavkům, možnost prodloužených akcí v restauraci a baru.",
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [7, 30],
+                                            [10, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "icon": { "1": "https://img.firmy.cz/favicon/big/201705/2308/36/5923f4b83606599e7a030000?v=1" },
+                "id": 12765968,
+                "mark": { "lat": 50.024297569106466, "lon": 14.44711031980571 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/2307/34/5923de7a34bfcf0dedad0e00?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/2307/34/5923de7a34bfcf0dedad0e00?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.21978021978021978, "293": 0.6593406593406593, "28844": 0.12087912087912088 }, "isPaid": true, "query": "restaurace", "subjectId": 3779386 },
+                "title": "Restaurant Villa Voyta",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Pivnice s tradicí od roku 1928 po rekonstrukci. Za pivnicí je oddělená&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Vysočany", "district": "Praha 9", "house_num": "162/9", "street": "Pod Pekárnami", "zip": "19000" },
+                    "contact": { "email": ["uhubatku@uhubatku.cz"], "phone": [{ "countrycode": "+420", "number": "252548138", "type": "telefon" }, { "countrycode": "+420", "number": "252544174", "type": "telefon" }], "url": "http://www.uhubatku.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12844346" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [1, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 12844346,
+                "mark": { "lat": 50.11197468050543, "lon": 14.503466417237702 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201410/0511/da/54312920da8158d26f002100?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201410/0511/da/54312920da8158d26f002100?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.24390243902439024, "293": 0.5121951219512195, "28844": 0.24390243902439024 }, "isPaid": true, "query": "restaurace", "subjectId": 2622346 },
+                "title": "Pivnice a nekuřácká restaurace U Hubatků",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurační koncept společnosti Eurest s nabídkou teplých jídel a s&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Holešovice", "district": "Praha 7", "house_num": "1603/47a", "street": "Jankovcova", "zip": "17000" },
+                    "contact": { "email": ["unas@eurest.cz"], "phone": [{ "countrycode": "+420", "number": "220302111", "type": "telefon" }], "url": "http://www.unasrestaurace.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12955897" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [14, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [14, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [14, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [14, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [14, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 12955897,
+                "mark": { "lat": 50.10708478523827, "lon": 14.454724714244215 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201510/0908/4c/56177b224c7385116abd0600?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201510/0908/4c/56177b224c7385116abd0600?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 0.6304347826086957, "28844": 0.3695652173913043 }, "isPaid": true, "query": "restaurace", "subjectId": 2013425 },
+                "title": "Restaurace U nás",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Štavnaté burgery v nadýchané housce, domácí bramborové hranolky&hellip;",
+                "extend": {
+                    "address": { "additional_info": "Parkování v areálu", "city": "Praha, Nebušice", "district": "Praha 6", "house_num": "93", "street": "Nebušická", "zip": "16400" },
+                    "contact": { "email": ["reservation@dolcevilla.cz"], "phone": [{ "countrycode": "+420", "number": "220199510", "type": "telefon" }], "url": "http://www.burgerbar.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12987148" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 30],
+                                            [23, 30]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 12987148,
+                "mark": { "lat": 50.11033207021786, "lon": 14.332290418153372 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201605/3011/30/574c22233054d3923fb80200?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201605/3011/30/574c22233054d3923fb80200?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 1 }, "isPaid": true, "query": "restaurace", "subjectId": 2258093 },
+                "title": "Burger Bar",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Nabízíme autentická nepálská a indická jídla, připravená zkušenými&hellip;",
+                "extend": {
+                    "address": { "additional_info": "Historické prostory sladovny bývalého pivovaru.", "city": "Brno, Veveří", "district": "Brno-město", "house_num": "989/51a", "street": "Kotlářská", "zip": "60200" },
+                    "contact": { "email": ["restaurace@goldennepal.cz"], "phone": [{ "countrycode": "+420", "number": "720940504", "type": "mobil" }], "url": "http://www.goldennepal.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-12996241" },
+                    "opening": {
+                        "msg": "Od jedenácti do tří hodin podáváme polední menu.",
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [23, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 12996241,
+                "mark": { "lat": 49.20824315578871, "lon": 16.602752600877572 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201608/0813/1e/57a889691eba711119fe0e00?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201608/0813/1e/57a889691eba711119fe0e00?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 0.7777777777777778, "10479": 0.2222222222222222 }, "isPaid": true, "query": "restaurace", "subjectId": 3908626 },
+                "title": "Nepálská restaurace Golden Nepal",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurace v krásném moderním prostředí nabízí skvělé plzeňské pivo&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Holešovice", "district": "Praha 7", "house_num": "466/22", "street": "U Průhonu", "zip": "17000" },
+                    "contact": { "email": ["info@restauraceuholise.cz"], "phone": [{ "countrycode": "+420", "number": "724100440", "type": "mobil" }], "url": "http://www.restauraceuholise.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-13020182" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [0, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 13020182,
+                "mark": { "lat": 50.10491212115175, "lon": 14.447635906869058 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201611/2412/3b/5836e2bd3bade8cecf310900?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201611/2412/3b/5836e2bd3bade8cecf310900?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "282": 0.1917808219178082, "293": 0.8082191780821918 }, "isPaid": true, "query": "restaurace", "subjectId": 2383347 },
+                "title": "Restaurace u Holiše",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Rodinná sushi restaurace s rozvozem v Úvalech a širokém okolí (20km)&hellip;",
+                "extend": {
+                    "address": { "additional_info": "vchod z ulice Jiráskova", "city": "Úvaly", "district": "Praha-východ", "house_num": "242", "street": "28. října", "zip": "25082" },
+                    "contact": { "email": ["info@sushiuvaly.cz"], "phone": [{ "countrycode": "+420", "number": "723661663", "type": "mobil" }], "url": "http://www.sushiuvaly.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-13032334" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 13032334,
+                "mark": { "lat": 50.074440002441406, "lon": 14.722480773925781 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201702/1015/14/589dda5214eefc03f5560300?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201702/1015/14/589dda5214eefc03f5560300?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 1 }, "isPaid": true, "query": "restaurace", "subjectId": 3931276 },
+                "title": "SUSHI Úvaly",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Restaurace se zaměřením na Itálii a Francii. Vyrábíme si vlastní&hellip;",
+                "extend": {
+                    "address": { "city": "Ostrava, Michálkovice", "district": "Ostrava-město", "house_num": "208/49", "street": "Československé armády", "zip": "71500" },
+                    "contact": { "email": ["ctyricetdevet@yahoo.com"], "phone": [{ "countrycode": "+420", "number": "725812238", "type": "mobil" }], "url": "http://www.ctyricetdevet.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-13053094" },
+                    "opening": {
+                        "msg": "Od 15:30-16:30 nevaříme.",
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [11, 0],
+                                            [22, 0]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 13053094,
+                "mark": { "lat": 49.84304468704698, "lon": 18.33575173388392 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/1106/54/591401da546daeba95bd0200?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/1106/54/591401da546daeba95bd0200?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 1 }, "isPaid": true, "query": "restaurace", "subjectId": 3949410 },
+                "title": "Restaurace 49",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }, {
+                "description": "Provozujeme thajsko-vietnamskou restauraci. Možnost uspořádání firemního&hellip;",
+                "extend": {
+                    "address": { "city": "Praha, Vršovice", "district": "Praha 10", "house_num": "572/47", "street": "Kodaňská", "zip": "10100" },
+                    "contact": { "email": ["mikysfoodcz@gmail.com"], "phone": [{ "countrycode": "+420", "number": "267311862", "type": "telefon" }], "url": "http://www.mikysfood.cz#utm_source=mapy.cz&utm_medium=ppd&utm_content=hledani&utm_term=restaurace&utm_campaign=firmy.cz-13054678" },
+                    "opening": {
+                        "seasons": [{
+                            "days": {
+                                "1": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "2": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "3": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "4": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "5": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "6": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                },
+                                "7": {
+                                    "interval": [
+                                        [
+                                            [10, 30],
+                                            [22, 30]
+                                        ]
+                                    ]
+                                }
+                            },
+                            "end": 1231,
+                            "start": 101
+                        }]
+                    }
+                },
+                "id": 13054678,
+                "mark": { "lat": 50.071213602163006, "lon": 14.457648672767405 },
+                "media": { "mimetype": "image/jpg", "urls": { "1x1": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/2213/d4/5922e556d4e3b76720fc0100?v=1&fl=res,{width},{height},2,000000", "default": "//api.mapy.cz/mediastorage/firm/?url=https://img.firmy.cz/premisenb/medium/201705/2213/d4/5922e556d4e3b76720fc0100?v=1&fl=res,{width},{height},3,000000" } },
+                "origin": "firmy.cz",
+                "source": "firm",
+                "stats": { "categories": { "293": 1 }, "isPaid": true, "query": "restaurace", "subjectId": 3950627 },
+                "title": "Miky's Food",
+                "typeId": 5322,
+                "typeName": "Restaurace a pohostinství"
+            }],
+            "status": 200,
+            "statusMessage": "OK",
+            "totalCount": 15
+        },
+        "pois": { "firm": [12765968, 13020182, 329312, 747423, 2169255, 494358, 13032334, 12987148, 12955897, 12996241, 12713055, 13054678, 12844346, 13053094, 639315] },
+        "options": { "fetchPhoto": true, "ratios": ["1x1"], "lang": ["cs", "en"], "query": "restaurace" },
+        "description": true,
+        "strKeys": ["pois", "options"]
+    }],
+    "search": [{ "response": { "categoryOnly": false, "deletedfromBack": false, "geolocation": false, "hasGeo": false, "hasService": false, "result": [{ "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "favicon": "https://img.firmy.cz/favicon/big/201705/2308/36/5923f4b83606599e7a030000?v=1", "firstRow": "Restaurant Villa Voyta", "iconSize": 2, "id": 12765968, "importance": 0.2, "mark": { "lat": 50.024297569106466, "lon": 14.44711031980571 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.99, "seasonality": 0, "secondRow": "K Novému dvoru 124/54, 142 00  Praha, Lhotka", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurant Villa Voyta, K Novému dvoru 124/54, 142 00  Praha, Lhotka", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace u Holiše", "iconSize": 2, "id": 13020182, "importance": 0.2, "mark": { "lat": 50.10491212115175, "lon": 14.447635906869058 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 3, "relevance": 1.98, "seasonality": 0, "secondRow": "U Průhonu 466/22, 170 00  Praha, Holešovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace u Holiše, U Průhonu 466/22, 170 00  Praha, Holešovice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Hlučná samota", "iconSize": 2, "id": 329312, "importance": 0.2, "mark": { "lat": 50.071591984004826, "lon": 14.436248464564795 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 1, "relevance": 1.97, "seasonality": 0, "secondRow": "Záhřebská 534/14, 120 00  Praha, Vinohrady", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Hlučná samota, Záhřebská 534/14, 120 00  Praha, Vinohrady", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "El Barrio de Ángel", "iconSize": 2, "id": 747423, "importance": 0.2, "mark": { "lat": 50.07218273350998, "lon": 14.404491984033006 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 3, "relevance": 1.96, "seasonality": 0, "secondRow": "Lidická 284/42, 150 00  Praha, Smíchov", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "El Barrio de Ángel, Lidická 284/42, 150 00  Praha, Smíchov", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace Chateau Svatý Havel", "iconSize": 2, "id": 2169255, "importance": 0.2, "mark": { "lat": 50.03532409667969, "lon": 14.447761535644531 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 0, "relevance": 1.95, "seasonality": 0, "secondRow": "Před nádražím 1/6, 140 00  Praha", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace Chateau Svatý Havel, Před nádražím 1/6, 140 00  Praha", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace U Zpěváčků", "iconSize": 2, "id": 494358, "importance": 0.2, "mark": { "lat": 50.07965437824001, "lon": 14.415023429786826 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 1, "relevance": 1.94, "seasonality": 0, "secondRow": "Na Struze 1740/7, 110 00  Praha, Nové Město", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace U Zpěváčků, Na Struze 1740/7, 110 00  Praha, Nové Město", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "SUSHI Úvaly", "iconSize": 2, "id": 13032334, "importance": 0.2, "mark": { "lat": 50.074440002441406, "lon": 14.722480773925781 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 4, "relevance": 1.93, "seasonality": 0, "secondRow": "28. října 242, 250 82  Úvaly", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "SUSHI Úvaly, 28. října 242, 250 82  Úvaly", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Burger Bar", "iconSize": 2, "id": 12987148, "importance": 0.2, "mark": { "lat": 50.11033207021786, "lon": 14.332290418153372 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 3, "relevance": 1.92, "seasonality": 0, "secondRow": "Nebušická 93, 164 00  Praha, Nebušice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Burger Bar, Nebušická 93, 164 00  Praha, Nebušice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace U nás", "iconSize": 2, "id": 12955897, "importance": 0.2, "mark": { "lat": 50.10708478523827, "lon": 14.454724714244215 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 0, "relevance": 1.9100000000000001, "seasonality": 0, "secondRow": "Jankovcova 1603/47a, 170 00  Praha, Holešovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace U nás, Jankovcova 1603/47a, 170 00  Praha, Holešovice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Nepálská restaurace Golden Nepal", "iconSize": 2, "id": 12996241, "importance": 0.2, "mark": { "lat": 49.20824315578871, "lon": 16.602752600877572 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.9, "seasonality": 0, "secondRow": "Kotlářská 989/51a, 602 00  Brno, Veveří", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Nepálská restaurace Golden Nepal, Kotlářská 989/51a, 602 00  Brno, Veveří", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace Plachta", "iconSize": 2, "id": 12713055, "importance": 0.2, "mark": { "lat": 50.07031447967731, "lon": 14.405803341821677 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 0, "relevance": 1.8900000000000001, "seasonality": 0, "secondRow": "Jindřicha Plachty 1219/27, 150 00  Praha, Smíchov", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace Plachta, Jindřicha Plachty 1219/27, 150 00  Praha, Smíchov", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Miky's Food", "iconSize": 2, "id": 13054678, "importance": 0.2, "mark": { "lat": 50.071213602163006, "lon": 14.457648672767405 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 1, "relevance": 1.88, "seasonality": 0, "secondRow": "Kodaňská 572/47, 101 00  Praha, Vršovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Miky's Food, Kodaňská 572/47, 101 00  Praha, Vršovice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Pivnice a nekuřácká restaurace U Hubatků", "iconSize": 2, "id": 12844346, "importance": 0.2, "mark": { "lat": 50.11197468050543, "lon": 14.503466417237702 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 2, "relevance": 1.87, "seasonality": 0, "secondRow": "Pod Pekárnami 162/9, 190 00  Praha, Vysočany", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Pivnice a nekuřácká restaurace U Hubatků, Pod Pekárnami 162/9, 190 00  Praha, Vysočany", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace 49", "iconSize": 2, "id": 13053094, "importance": 0.2, "mark": { "lat": 49.84304468704698, "lon": 18.33575173388392 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.8599999999999999, "seasonality": 0, "secondRow": "Československé armády 208/49, 715 00  Ostrava, Michálkovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace 49, Československé armády 208/49, 715 00  Ostrava, Michálkovice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace Slunečnice", "iconSize": 2, "id": 639315, "importance": 0.2, "mark": { "lat": 49.17592653050352, "lon": 16.63857859366638 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 2, "relevance": 1.85, "seasonality": 0, "secondRow": "Faměrovo náměstí 36/17, 618 00  Brno, Černovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace Slunečnice, Faměrovo náměstí 36/17, 618 00  Brno, Černovice", "weight": 0, "ready": false }], "resultCount": 15, "status": 206, "statusMessage": "Partial result", "totalCount": 3193, "userid": "" }, "query": "restaurace", "options": { "viewport": { "lbx": -8.094972600000006, "lby": 37.67476983955932, "rtx": 36.905027399999994, "rty": 59.50622705018727 }, "zoom": 5, "offset": 0, "limit": 15 }, "strKeys": ["options"] }, { "response": { "categoryOnly": false, "deletedfromBack": false, "geolocation": false, "hasGeo": false, "hasService": false, "result": [{ "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "favicon": "https://img.firmy.cz/favicon/big/201705/2308/36/5923f4b83606599e7a030000?v=1", "firstRow": "Restaurant Villa Voyta", "iconSize": 2, "id": 12765968, "importance": 0.2, "mark": { "lat": 50.024297569106466, "lon": 14.44711031980571 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.99, "seasonality": 0, "secondRow": "K Novému dvoru 124/54, 142 00  Praha, Lhotka", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurant Villa Voyta, K Novému dvoru 124/54, 142 00  Praha, Lhotka", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Nepálská restaurace Golden Nepal", "iconSize": 2, "id": 12996241, "importance": 0.2, "mark": { "lat": 49.20824315578871, "lon": 16.602752600877572 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.9, "seasonality": 0, "secondRow": "Kotlářská 989/51a, 602 00  Brno, Veveří", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Nepálská restaurace Golden Nepal, Kotlářská 989/51a, 602 00  Brno, Veveří", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace 49", "iconSize": 2, "id": 13053094, "importance": 0.2, "mark": { "lat": 49.84304468704698, "lon": 18.33575173388392 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.8599999999999999, "seasonality": 0, "secondRow": "Československé armády 208/49, 715 00  Ostrava, Michálkovice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace 49, Československé armády 208/49, 715 00  Ostrava, Michálkovice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace Vyšehrad", "iconSize": 2, "id": 13053533, "importance": 0.2, "mark": { "lat": 48.81839090144098, "lon": 14.31674586491989 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.73, "seasonality": 0, "secondRow": "Vyšehradská 243, 381 01  Český Krumlov, Nádražní Předměstí", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace Vyšehrad, Vyšehradská 243, 381 01  Český Krumlov, Nádražní Předměstí", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Česká hospůdka", "iconSize": 2, "id": 12876799, "importance": 0.2, "mark": { "lat": 49.97225655728585, "lon": 12.704371606978562 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.68, "seasonality": 0, "secondRow": "Klíčová 179/10, 353 01  Mariánské Lázně", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Česká hospůdka, Klíčová 179/10, 353 01  Mariánské Lázně", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Restaurace Anna", "iconSize": 2, "id": 12973840, "importance": 0.2, "mark": { "lat": 50.731409142089454, "lon": 15.456072237513244 }, "origin": "firm", "poiTypeId": 5322, "popularity": 0.05, "premisePoiMapyHighlightLevel": 4, "relevance": 1.21, "seasonality": 0, "secondRow": "Rokytnice nad Jizerou 210, 512 44  Rokytnice nad Jizerou, Horní Rokytnice", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Restaurace Anna, Rokytnice nad Jizerou 210, 512 44  Rokytnice nad Jizerou, Horní Rokytnice", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": true }, "firstRow": "Penzion Adriana", "iconSize": 2, "id": 562233, "importance": 0.2, "mark": { "lat": 51.00115282346115, "lon": 14.574719012277741 }, "origin": "firm", "poiTypeId": 5516, "popularity": 0.05, "premisePoiMapyHighlightLevel": 5, "relevance": 1.01, "seasonality": 0, "secondRow": "9. května 679/18, 407 53  Starý Jiříkov", "simplifiedDistance": 0, "sortTypeId": 0, "source": "firm", "title": "Penzion Adriana, 9. května 679/18, 407 53  Starý Jiříkov", "weight": 0, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství", "iconSize": 2, "id": 110837276, "importance": 0.20000000298023224, "mark": { "lat": 48.2107105000004, "lon": 15.2054891326698 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.003283432452008128, "seasonality": 0, "secondRow": "město Pöchlarn, Rakousko", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Zur Straussenwirtschaft", "iconSize": 2, "id": 12561078, "importance": 0.20000000298023224, "mark": { "lat": 48.8637411999999, "lon": 13.1977058 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.003271776484325528, "seasonality": 0, "secondRow": "vesnice Allhartsmais, Německo", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Zur Straussenwirtschaft", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Windbeutelbaron", "iconSize": 2, "id": 12525702, "importance": 0.20000000298023224, "mark": { "lat": 47.6135202000001, "lon": 13.0179669000001 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0.092, "premisePoiMapyHighlightLevel": 0, "relevance": 0.003265095641836524, "seasonality": 0, "secondRow": "město Berchtesgaden, Německo", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Windbeutelbaron", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Gasthof Leitner", "iconSize": 2, "id": 136111204, "importance": 0.20000000298023224, "mark": { "lat": 47.4631648500002, "lon": 14.1301668988515 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.0032585575245320797, "seasonality": 0, "secondRow": "obec Irdning-Donnersbachtal, Rakousko", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Gasthof Leitner", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Ramsauer", "iconSize": 2, "id": 12523632, "importance": 0.20000000298023224, "mark": { "lat": 48.7326347000009, "lon": 12.1892987999999 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.003247886197641492, "seasonality": 0, "secondRow": "vesnice Neufahrn in Niederbayern, Německo", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Ramsauer", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Gasthof Nell", "iconSize": 2, "id": 136112771, "importance": 0.20000000298023224, "mark": { "lat": 48.0830257, "lon": 16.5314785850683 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.003247034503147006, "seasonality": 0, "secondRow": "vesnice Rauchenwarth, Rakousko", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Gasthof Nell", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Gasthof Doktorbauer", "iconSize": 2, "id": 136101206, "importance": 0.20000000298023224, "mark": { "lat": 47.0484367000001, "lon": 15.3881693000001 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.0032426626421511173, "seasonality": 0, "secondRow": "město Štýrský Hradec, Rakousko", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Gasthof Doktorbauer", "weight": 1, "ready": false }, { "address": "", "adminWeight": 0, "description": "", "entityCategory": 0, "exact": 0, "extendedData": { "paid": false }, "firstRow": "Restaurace a pohostinství Moarhof Roßholzen", "iconSize": 2, "id": 129375929, "importance": 0.20000000298023224, "mark": { "lat": 47.7582093000004, "lon": 12.1833198000001 }, "matches": "osmaddress: 0 sentence1: 0 sentence10: 0 sentence2: 0 sentence3: 0 sentence4: 0 sentence5: 0 sentence6: 0 sentence7: 0 sentence8: 0 sentence9: 0 source: 0 sourceid: 0 virtual: 1 ", "origin": "osmp", "poiTypeId": 5322, "popularity": 0, "premisePoiMapyHighlightLevel": 0, "relevance": 0.0032420679926872253, "seasonality": 0, "secondRow": "vesnice Samerberg, Německo", "simplifiedDistance": 0, "sortTypeId": 30, "source": "osm", "title": "Restaurace a pohostinství Moarhof Roßholzen", "weight": 1, "ready": false }], "resultCount": 500, "status": 200, "statusMessage": "OK", "totalCount": 4000, "userid": "" }, "query": "restaurace", "options": { "viewport": { "lbx": -8.094972600000006, "lby": 37.67476983955932, "rtx": 36.905027399999994, "rty": 59.50622705018727 }, "zoom": 5, "limit": 500, "filter": true, "filterMultimarker": {}, "preservePois": [{ "id": 12765968, "source": "firm" }, { "id": 13020182, "source": "firm" }, { "id": 329312, "source": "firm" }, { "id": 747423, "source": "firm" }, { "id": 2169255, "source": "firm" }, { "id": 494358, "source": "firm" }, { "id": 13032334, "source": "firm" }, { "id": 12987148, "source": "firm" }, { "id": 12955897, "source": "firm" }, { "id": 12996241, "source": "firm" }, { "id": 12713055, "source": "firm" }, { "id": 13054678, "source": "firm" }, { "id": 12844346, "source": "firm" }, { "id": 13053094, "source": "firm" }, { "id": 639315, "source": "firm" }] }, "strKeys": ["options"] }],
+    "route": []
+}
