@@ -3,6 +3,22 @@ const fs = require('fs');
 const SKIP = ["$RECYCLE.BIN", "System Volume Information"];
 
 class FFMpeg {
+	constructor() {
+		// max buffer error: -max_muxing_queue_size 4000
+		this._mp4Nvidia720();
+	}
+
+	async _mp4Nvidia720() {
+		let files = fs.readdirSync(".").filter(i => i.indexOf(".mp4") != -1);
+
+		for (let file of files) {
+			let oldFileName = `old_${file}`;
+			this.rename(file, oldFileName);
+			//await this.nvidiaEncode(oldFileName, file, { resize: "720x480", verbose: 1 });
+			await this.nvidiaEncode(oldFileName, file, { resize: "1280x720", verbose: 1 });
+		}
+	}
+
 	rename(file, newFileName) {
 		fs.renameSync(file, newFileName);
 	}
@@ -39,19 +55,28 @@ class FFMpeg {
 		await this._run(``);
 	}
 
+	async fixVideo(file, output) {
+		await this._run(`ffmpeg -i \"${file}\" -c copy -movflags faststart \"${output}\"`);
+	}
+
 	async nvidiaEncode(file, output, optsArg) {
 		let opts = Object.assign({
 			resize: "", // 1280x720
 			preset: "slow", // medium, fast,
 			profile: "", // high
-			special: false
+			probesize: false,
+			special: false,
+			params: "",
+			verbose: false
 		}, optsArg);
 
 		let resize = opts.resize ? `-resize ${opts.resize} -deint 2` : "";
 		let profile = opts.profile ? `-profile:v ${opts.profile}` : "";
+		let probesizeParams = opts.probesize ? "-analyzeduration 2148M -probesize 2148M" : "";
 		let specialParams = opts.special ? "-pix_fmt yuv420p -rc vbr_hq -b:v 8M -maxrate:v 10M" : "";
+		let params = opts.params ? opts.params : "";
 
-		await this._run(`ffmpeg -c:v h264_cuvid ${resize} -i "${file}" -vcodec h264_nvenc -preset ${opts.preset} ${profile} ${specialParams} -c:a copy "${output}"`);
+		await this._run(`ffmpeg -c:v h264_cuvid ${[resize, probesizeParams].join(" ")} -i "${file}" -vcodec h264_nvenc -preset ${[opts.preset, profile, specialParams, params].join(" ")} -c:a copy "${output}"`, opts.verbose);
 	}
 
 	// crf kvalita - 23 medium
@@ -91,12 +116,12 @@ class FFMpeg {
 		await this._run(`ffmpeg -f concat -safe 0 -i ${listFile} ${codec} "${output}"`);
 	}
 
-	_run(command) {
+	_run(command, verbose) {
 		return new Promise((resolve, reject) => {
 			let time = Date.now();
 			console.log(`Running command: ${command}`);
 
-			exec(command, (error, stdout, stderr) => {
+			let newProc = exec(command, (error, stdout, stderr) => {
 				let timeDiff = Date.now() - time;
 				let diff = timeDiff / 1000;
 
@@ -112,6 +137,18 @@ class FFMpeg {
 					resolve(timeDiff);
 				}
 			});
+
+			if (verbose) {
+				newProc.stdout.on('data', data => {
+					console.log(data.toString())
+				});
+
+				newProc.stderr.on('data', data => {
+					console.log(data.toString())
+				});
+			}
 		});
 	}
 }
+
+new FFMpeg();
