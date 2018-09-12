@@ -37,7 +37,8 @@ class MyScript {
 			let end = Math.min(start + partTime, seconds);
 			output.push({
 				start: this._secToHours(start + skip),
-				end: this._secToHours(end + skip)
+				end: this._secToHours(end + skip),
+				duration: this._secToHours(end - start)
 			});
 
 			start = end;
