@@ -1,122 +1,214 @@
 const { exec } = require('child_process');
 const fs = require('fs');
+const pathObj = require('path');
+
 const SKIP = ["$RECYCLE.BIN", "System Volume Information"];
+const EXTS = [".mkv", ".mp4", ".avi", ".flv"];
+const OUTPUT = "output";
 
 class FFMpeg {
-	constructor() {
-		// max buffer error: -max_muxing_queue_size 4000
-		this._mp4Nvidia720();
-	}
+	constructor(file) {
+		this._files = [];
+		this._listFile = "";
+		this._params = {
+			cuda: false,
+			codec: "-c:v libx264",
+			audio: "-c:a copy",
+			preset: "",
+			resize: "",
+			quality: "",
+			audioStreams: ""
+		};
+		/**
+		 * -profile:v high
+		 * -analyzeduration 2148M
+		 * -probesize 2148M
+		 * -pix_fmt yuv420p
+		 * -rc vbr_hq
+		 * -b:v 8M
+		 * -maxrate:v 10M
+		 * -map 0:v -map 0:a
+		 * -c:v h264_cuvid
+		 * -c:v libx264
+		 * -vcodec h264_nvenc
+		 * -c:a copy
+		 * -c:a aac
+		 * -crf 23
+		 * -strict -2
+		 */
 
-	async _mp4Nvidia720() {
-		let files = fs.readdirSync(".").filter(i => i.indexOf(".mp4") != -1);
-
-		for (let file of files) {
-			let oldFileName = `old_${file}`;
-			this.rename(file, oldFileName);
-			//await this.nvidiaEncode(oldFileName, file, { resize: "720x480", verbose: 1 });
-			await this.nvidiaEncode(oldFileName, file, { resize: "1280x720", verbose: 1 });
+		if (file) {
+			this._files.push(file);
 		}
+
+		try {
+			fs.mkdirSync(OUTPUT);
+		}
+		catch () {}
 	}
 
-	rename(file, newFileName) {
+	/* parameters start */
+
+	cuda() {
+		this._params.cuda = true;
+		this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
+		return this;
+	}
+
+	audioStreams() {
+		// mapuju video na vystup (to hlavni), vsechny ostatni resource prekopirovat; jinak se bere od kazdeho 1
+		this._params.audioStreams = "-map 0:v -map 0:a";
+		return this;
+	}
+
+	// slow, medium, fast
+	preset(value) {
+		this._params.preset = `-preset ${value}`;
+		return this;
+	}
+
+	// 1280x720
+	resize(value) {
+		this._params.resize = `-resize ${value} -deint 2`;
+		return this;
+	}
+
+	quality(value) {
+		this._params.quality = `-crf ${value}`;
+		return this;
+	}
+
+	/* parameters end */
+
+	readAllVideos() {
+		fs.readdirSync(".").forEach(file => {
+			EXTS.every(ext => {
+				if (file.indexOf(ext) != -1) {
+					this._files.push(file);
+				}
+				else return true;
+			});
+		});
+
+		return this;
+	}
+
+	listFile(files, output) {
+		let data = files.map(i => `file '${i}'`).join("\n");
+		fs.writeFileSync(output, data, "utf-8");
+
+		this._listFile = output;
+
+		return this;
+	}
+
+	async audioExtract(bitrate) {
+		let bitrateValue = 0;
+
+		if (typeof bitrate === "boolean" && bitrate) {
+			bitrateValue = 192000;
+		}
+		else if (typeof bitrate === "number" && bitrate > 0) {
+			bitrateValue = bitrate;
+		}
+
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, this._replaceExt(file, "mp3"));
+			await this._run(`ffmpeg -i "${file}" -f mp3 ${bitrateValue > 0 ? `-ab ${bitrateValue}` : ""}-vn "${output}"`);
+		}
+
+		return this;
+	}
+
+	async audioNormalize() {
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, file);
+			await this._run(`ffmpeg-normalize --normalization-type peak --target-level 0 -f "${file}" -c:a libmp3lame -b:a 320k -o "${output}"`);
+		}
+
+		return this;
+	}
+
+	async audioConcat(output) {
+		await this._run(`ffmpeg ${this._files.map(i => `-i "${i}"`).join(" ")} -filter_complex amix=inputs=${this._files.length}:duration=first:dropout_transition=0 -codec:a libmp3lame -q:a 0 "${output}"`);
+
+		return this;
+	}
+
+	// [s]
+	async videoAudioOffset(offset) {
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, file);
+			await this._run(`ffmpeg -i "${file}" -itsoffset ${offset} -vcodec copy -acodec copy -map 0:0 -map 1:1 "${output}"`);
+		}
+
+		return this;
+	}
+
+	async videoFix() {
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, file);
+			await this._run(`ffmpeg -i \"${file}\" -c copy -movflags faststart \"${output}\"`);
+		}
+
+		return this;
+	}
+
+	async videoConvert(ext) {
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, this._replaceExt(file, ext));
+			await this._run(`ffmpeg -i "${file}" -acodec copy -vcodec copy "${output}"`);
+		}
+
+		return this;
+	}
+
+	async videoConcat(encode, output) {
+		if (this._listFile) {
+			let codec = encode ? "-vcodec libx264 -acodec copy -map 0:v -map 0:a:0" : "-c copy";
+
+			await this._run(`ffmpeg -f concat -safe 0 -i ${this._listFile} ${codec} "${output}"`);
+		}
+
+		return this;
+	}
+
+	// pres parametry
+	async videoEncode(ext = "mp4") {
+		let paramsArg = [this._params.codec];
+
+		["audioStreams", "resize", "preset", "quality", "audio"].forEach(name => {
+			let value = this._params[name];
+			if (!value || (name == "quality" && this._params.cuda)) return;
+
+			paramsArg.push(value);
+		});
+
+		let params = paramsArg.join(" ");
+
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, this._replaceExt(file, ext));
+			// poskladame url
+			await this._run(`ffmpeg -i "${file}"${params} ${output}`);
+		}
+
+		return this;
+	}
+
+	_rename(file, newFileName) {
 		fs.renameSync(file, newFileName);
 	}
 
-	remove(file) {
+	_remove(file) {
 		fs.unlinkSync(file);
 	}
 
-	getDirectoriesFromPath(path) {
-		let directories = [];
-
-		try {
-			fs.readdirSync(path).filter(item => {
-				return SKIP.indexOf(item) == -1;
-			}).forEach(item => {
-				let stats = fs.statSync(pathObj.join(path, item));
-
-				if (stats && stats.isDirectory()) {
-					directories.push(item);
-				}
-			});
-		}
-		catch (err) {
-		}
-
-		return directories;
+	// ext = mp4, mp3
+	_replaceExt(value, ext) {
+		return (value.replace(/\.\w+$/, "." + ext));
 	}
 
-	generateListFile(files) {
-		return files.map(i => `file '${i}'`).join("\n");
-	}
-
-	async xyz(file, output) {
-		await this._run(``);
-	}
-
-	async fixVideo(file, output) {
-		await this._run(`ffmpeg -i \"${file}\" -c copy -movflags faststart \"${output}\"`);
-	}
-
-	async nvidiaEncode(file, output, optsArg) {
-		let opts = Object.assign({
-			resize: "", // 1280x720
-			preset: "slow", // medium, fast,
-			profile: "", // high
-			probesize: false,
-			special: false,
-			params: "",
-			verbose: false
-		}, optsArg);
-
-		let resize = opts.resize ? `-resize ${opts.resize} -deint 2` : "";
-		let profile = opts.profile ? `-profile:v ${opts.profile}` : "";
-		let probesizeParams = opts.probesize ? "-analyzeduration 2148M -probesize 2148M" : "";
-		let specialParams = opts.special ? "-pix_fmt yuv420p -rc vbr_hq -b:v 8M -maxrate:v 10M" : "";
-		let params = opts.params ? opts.params : "";
-
-		await this._run(`ffmpeg -c:v h264_cuvid ${[resize, probesizeParams].join(" ")} -i "${file}" -vcodec h264_nvenc -preset ${[opts.preset, profile, specialParams, params].join(" ")} -c:a copy "${output}"`, opts.verbose);
-	}
-
-	// crf kvalita - 23 medium
-	// r - pocet fps
-	async resize720H264(file, output, r) {
-		let r = typeof r === "number" ? `-r ${r}` : "";
-
-		await this._run(`ffmpeg -i "${file}" -s hd720 ${r} -c:v libx264 -crf 23 -c:a aac -strict -2 ${output}`);
-	}
-
-	// file = xyz.mp4
-	// output = xyz.mp3
-	async audioExtract(file, output) {
-		await this._run(`ffmpeg -i "${file}" -f mp3 -ab 192000 -vn "${output}"`);
-	}
-
-	async tsToMp4(file, output) {
-		await this._run(`ffmpeg -i "${file}" -acodec copy -vcodec copy "${output}"`);
-	}
-
-	async normalizeAudio(file, output) {
-		await this._run(`ffmpeg-normalize --normalization-type peak --target-level 0 -f "${file}" -c:a libmp3lame -b:a 320k -o "${output}"`);
-	}
-
-	// offset v [s] 1.5 napr.
-	async audioOffset(file, offset, output) {
-		await this._run(`ffmpeg -i "${file}" -itsoffset ${offset} -vcodec copy -acodec copy -map 0:0 -map 1:1 "${output}"`);
-	}
-
-	async concatAudio(audioFiles, output) {
-		await this._run(`ffmpeg ${audioFiles.map(i => `-i "${i}"`).join(" ")} -filter_complex amix=inputs=${audioFiles.length}:duration=first:dropout_transition=0 -codec:a libmp3lame -q:a 0 "${output}"`);
-	}
-
-	async concatVideo(listFile, output, useH264) {
-		let codec = useH264 ? "-vcodec libx264 -acodec copy -map 0:v -map 0:a:0" : "-c copy";
-
-		await this._run(`ffmpeg -f concat -safe 0 -i ${listFile} ${codec} "${output}"`);
-	}
-
-	_run(command, verbose) {
+	_run(command, verbose = true) {
 		return new Promise((resolve, reject) => {
 			let time = Date.now();
 			console.log(`Running command: ${command}`);
@@ -150,5 +242,3 @@ class FFMpeg {
 		});
 	}
 }
-
-new FFMpeg();
