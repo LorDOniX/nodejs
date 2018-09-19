@@ -11,12 +11,14 @@ class FFMpeg {
 		this._files = [];
 		this._listFile = "";
 		this._params = {
+			banner: "",
 			cuda: false,
 			codec: "-c:v libx264",
 			audio: "-c:a copy",
 			preset: "",
 			resize: "",
 			quality: "",
+			aspect: "",
 			audioStreams: ""
 		};
 		/**
@@ -49,6 +51,11 @@ class FFMpeg {
 
 	/* parameters start */
 
+	hideBanner() {
+		this._params.banner = "-hide_banner";
+		return this;
+	}
+
 	cuda() {
 		this._params.cuda = true;
 		this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
@@ -75,6 +82,12 @@ class FFMpeg {
 
 	quality(value) {
 		this._params.quality = `-crf ${value}`;
+		return this;
+	}
+
+	// 16:9, 3:4 16:9, 16:10, 5:4, 2:21:1, 2:35:1, 2:39:1
+	aspect(value) {
+		this._params.aspec = `-aspect ${value}`;
 		return this;
 	}
 
@@ -106,7 +119,7 @@ class FFMpeg {
 		let bitrateValue = 0;
 
 		if (typeof bitrate === "boolean" && bitrate) {
-			bitrateValue = 192000;
+			bitrateValue = 192;
 		}
 		else if (typeof bitrate === "number" && bitrate > 0) {
 			bitrateValue = bitrate;
@@ -177,7 +190,7 @@ class FFMpeg {
 	async videoEncode(ext = "mp4") {
 		let paramsArg = [this._params.codec];
 
-		["audioStreams", "resize", "preset", "quality", "audio"].forEach(name => {
+		["banner", "audioStreams", "resize", "preset", "quality", "aspect", "audio"].forEach(name => {
 			let value = this._params[name];
 			if (!value || (name == "quality" && this._params.cuda)) return;
 
@@ -190,6 +203,16 @@ class FFMpeg {
 			let output = pathObj.join(OUTPUT, this._replaceExt(file, ext));
 			// poskladame url
 			await this._run(`ffmpeg -i "${file}"${params} ${output}`);
+		}
+
+		return this;
+	}
+
+	// *.srt
+	async videoSubtitle(subtitle) {
+		for (let file of this._files) {
+			let output = pathObj.join(OUTPUT, file);
+			await this._run(`ffmpeg -i \"${file}\" -i \"${subtitle}\" -map 0 -map 1 -c copy \"${output}\"`);
 		}
 
 		return this;
