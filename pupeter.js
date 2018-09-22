@@ -62,3 +62,15 @@ const puppeteer = require('puppeteer');
 
       await browser.close();
 })();
+
+var a = () => {
+<meta name="szn:status" content="200">
+
+("meta[name='szn:status'][content != '']")
+
+document.querySelector("meta[name='szn:status']:not([content=''])")
+<meta name=​"szn:​status" content=​"200">​
+
+
+https://github.com/GoogleChrome/puppeteer/issues/728
+};
