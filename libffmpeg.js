@@ -6,6 +6,10 @@ const SKIP = ["$RECYCLE.BIN", "System Volume Information"];
 const EXTS = [".mkv", ".mp4", ".avi", ".flv"];
 const OUTPUT = "output";
 
+// ffmpeg -c:v h264_cuvid -f concat -safe 0 -i file.txt -vcodec h264_nvenc -preset slow -b:v 4M -c:a copy output.mp4
+// ffmpeg -c:v h264_cuvid ${[resize, probesizeParams].join(" ")} -i "${file}" -vcodec h264_nvenc -preset ${[opts.preset, profile, specialParams, params].join(" ")} -c:a copy "${output}"
+// ffmpeg -c:v h264_cuvid ${resize} -i "${file}" -vcodec h264_nvenc -preset ${opts.preset} ${profile} ${specialParams} -c:a copy "${output}"
+
 class FFMpeg {
 	constructor(file) {
 		this._files = [];
@@ -46,7 +50,7 @@ class FFMpeg {
 		try {
 			fs.mkdirSync(OUTPUT);
 		}
-		catch () {}
+		catch (e) {}
 	}
 
 	/* parameters start */
