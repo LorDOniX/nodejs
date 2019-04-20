@@ -79,8 +79,8 @@ class App {
 	}
 
 	_fetchPhoto(url, path) {
-		fetch(url).then(res => {
-			return new Promise((resolve, reject) => {
+		return new Promise((resolve, reject) => {
+			fetch(url).then(res => {
 				const dest = fs.createWriteStream(path);
 				res.body.pipe(dest);
 				res.body.on('error', err => {
