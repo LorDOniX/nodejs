@@ -23,7 +23,8 @@ class FFMpeg {
 			resize: "",
 			quality: "",
 			aspect: "",
-			audioStreams: ""
+			audioStreams: "",
+			bitrate: 0
 		};
 		/**
 		 * -profile:v high
@@ -62,8 +63,8 @@ class FFMpeg {
 
 	cuda() {
 		this._params.cuda = true;
-		this._params.codec = "-c:v h264_nvenc";
-		//this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
+		//this._params.codec = "-c:v h264_nvenc";
+		this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
 		return this;
 	}
 
@@ -93,6 +94,12 @@ class FFMpeg {
 	// 16:9, 3:4 16:9, 16:10, 5:4, 2:21:1, 2:35:1, 2:39:1
 	aspect(value) {
 		this._params.aspec = `-aspect ${value}`;
+		return this;
+	}
+
+	// v [M]
+	bitrate(value) {
+		this._params.bitrate = value || 0;
 		return this;
 	}
 
@@ -195,9 +202,11 @@ class FFMpeg {
 	async videoEncode(ext = "mp4") {
 		let paramsArg = [this._params.codec];
 
-		["banner", "audioStreams", "resize", "preset", "quality", "aspect", "audio"].forEach(name => {
+		["banner", "audioStreams", "resize", "preset", "quality", "aspect", "audio", "bitrate"].forEach(name => {
 			let value = this._params[name];
+			
 			if (!value || (name == "quality" && this._params.cuda)) return;
+			if (name == "bitrate") value = `-b:v ${value}M`;
 
 			paramsArg.push(value);
 		});
@@ -273,4 +282,5 @@ class FFMpeg {
 
 //let ffmpeg = new FFMpeg("Video.mp4");
 //ffmpeg.cuda().resize("1280x720").videoEncode();
-(new FFMpeg("XYZ.ts")).cuda().videoEncode();
+// full hd tak 6M, 720 4-5M
+(new FFMpeg("aaa.mp4")).cuda().resize("1920x1080").bitrate(6).videoEncode();
