@@ -62,7 +62,8 @@ class FFMpeg {
 
 	cuda() {
 		this._params.cuda = true;
-		this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
+		this._params.codec = "-c:v h264_nvenc";
+		//this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
 		return this;
 	}
 
@@ -206,7 +207,7 @@ class FFMpeg {
 		for (let file of this._files) {
 			let output = pathObj.join(OUTPUT, this._replaceExt(file, ext));
 			// poskladame url
-			await this._run(`ffmpeg -i "${file}"${params} ${output}`);
+			await this._run(`ffmpeg -i "${file}" ${params} "${output}"`); //  -hwaccel cuvid
 		}
 
 		return this;
@@ -216,7 +217,7 @@ class FFMpeg {
 	async videoSubtitle(subtitle) {
 		for (let file of this._files) {
 			let output = pathObj.join(OUTPUT, file);
-			await this._run(`ffmpeg -i \"${file}\" -i \"${subtitle}\" -map 0 -map 1 -c copy \"${output}\"`);
+			await this._run(`ffmpeg -i \"${file}\" -i \"${subtitle}\" -map 0 -map 1 -c copy "${output}"`);
 		}
 
 		return this;
@@ -269,3 +270,7 @@ class FFMpeg {
 		});
 	}
 }
+
+//let ffmpeg = new FFMpeg("Video.mp4");
+//ffmpeg.cuda().resize("1280x720").videoEncode();
+(new FFMpeg("XYZ.ts")).cuda().videoEncode();
