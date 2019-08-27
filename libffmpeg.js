@@ -63,8 +63,8 @@ class FFMpeg {
 
 	cuda() {
 		this._params.cuda = true;
-		//this._params.codec = "-c:v h264_nvenc";
-		this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
+		this._params.codec = "-c:v h264_nvenc";
+		//this._params.codec = "-vcodec h264_nvenc -c:v h264_cuvid";
 		return this;
 	}
 
@@ -157,6 +157,11 @@ class FFMpeg {
 	async audioConcat(output) {
 		await this._run(`ffmpeg ${this._files.map(i => `-i "${i}"`).join(" ")} -filter_complex amix=inputs=${this._files.length}:duration=first:dropout_transition=0 -codec:a libmp3lame -q:a 0 "${output}"`);
 
+		return this;
+	}
+
+	audioConvert() {
+		this._params.audio = "-c:a libmp3lame -b:a 320k";
 		return this;
 	}
 
@@ -283,4 +288,7 @@ class FFMpeg {
 //let ffmpeg = new FFMpeg("Video.mp4");
 //ffmpeg.cuda().resize("1280x720").videoEncode();
 // full hd tak 6M, 720 4-5M
-(new FFMpeg("aaa.mp4")).cuda().resize("1920x1080").bitrate(6).videoEncode();
+//(new FFMpeg("00310001.MOV")).cuda().bitrate(6).audioConvert().videoEncode();
+//(new FFMpeg("00420004.MOV")).cuda().bitrate(6).audioConvert().videoEncode();
+//(new FFMpeg("23190001.MOV")).cuda().bitrate(6).audioConvert().videoEncode();
+//(new FFMpeg("23550002.MOV")).cuda().bitrate(6).audioConvert().videoEncode();
