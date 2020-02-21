@@ -6,8 +6,8 @@ var PATH = require("path");
 const INPUT = "img";
 const OUTPUT = "outputX";
 const SIZE = {
-	width: 2560,
-	height: 1440
+	width: 3840, //2560,
+	height: 2160 //1440
 };
 const QUALITY = 80;
 
