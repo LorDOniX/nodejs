@@ -31,19 +31,19 @@ let resizeImage = async(src, output) => {
 			quality: QUALITY
 		});
 	}
-	
+
 	image.toFile(output);
 };
 
 let main = async() => {
-	let files = fs.readdirSync(".").filter(i => i.indexOf(".jpg") != -1 || i.indexOf(".jpeg") != -1);
+	let files = fs.readdirSync(".").filter(i => i.toLowerCase().indexOf(".jpg") != -1 || i.toLowerCase().indexOf(".jpeg") != -1);
 
 	if (files.length) {
 		try {
 			fs.mkdirSync(FOLDER);
 		}
 		catch (e) {}
-		
+
 		for (let file of files) {
 			try {
 				console.log(`Processing file ${file}`);
