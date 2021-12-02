@@ -209,7 +209,7 @@ class FFMpeg {
 
 		["banner", "audioStreams", "resize", "preset", "quality", "aspect", "audio", "bitrate"].forEach(name => {
 			let value = this._params[name];
-			
+
 			if (!value || (name == "quality" && this._params.cuda)) return;
 			if (name == "bitrate") value = `-b:v ${value}M`;
 
