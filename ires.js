@@ -1,8 +1,8 @@
 const sharp = require('sharp');
 const fs = require('fs');
-const WIDTH = 3840;
-const HEIGHT = 2160;
-const FOLDER = "wqhd";
+const WIDTH = 1920*2;
+const HEIGHT = WIDTH;
+const FOLDER = "4k";
 const QUALITY = 80;
 const DEF_QUALITY = 80;
 
