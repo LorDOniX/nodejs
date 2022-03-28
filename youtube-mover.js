@@ -5,7 +5,7 @@ var { walk, onlyFiles, strCompare, mkDir, rename } = require("./common");
 var { channelNews, downloadChannel } = require("./api");
 var { CHANNELS } = require("./channels");
 
-const API_KEY = "AIzaSyB3w2n-mT3oo-WV5zWsu7O06ZNox1HRFxA";
+const API_KEY = "";
 const EXT = "mp4";
 const HD_EXT = "(1).mp4";
 const LQ_FOLDER = "lq";
